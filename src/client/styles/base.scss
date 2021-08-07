@@ -1,0 +1,28 @@
+body { 
+    height:100vh; 
+    margin:0;
+    display:flex; 
+    flex-direction:column; 
+    font-family: sans-serif,Helvetica; ;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#sectionOne{
+    margin: 10px;
+}
+
+#sectionTwo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionThree{
+    margin: 10px;
+}

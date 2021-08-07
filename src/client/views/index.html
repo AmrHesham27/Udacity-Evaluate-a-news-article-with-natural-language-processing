@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                Evaluate a news aticle with natural language processing 
+            </div>
+        </header>
+
+        <main>
+            <section id="sectionOne">
+                <p>
+                    Analyze the sentiment of social networks, reviews, or customer satisfaction surveys.<br>
+                    Have you ever wondered what people say about you, your company or your products in social networks?<br>
+                    Have you ever tried to analyze the tens of thousands of answers to open-ended questions in customer satisfaction surveys?<br>
+                    Sentiment Analysis (also known as Opinion Mining) applies natural language processing, text analytics, and 
+                    computational linguistics to<br>
+                    identify and extract subjective information from various types of content.
+                </p>
+            </section>
+
+            <section id="sectionTwo">
+                <strong>Try it out!</strong>
+                <form onsubmit="return Client.handleSubmit(event)">
+                    <input id="userInput" type="text" name="input" value="" placeholder="Please enter URL of an article">
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            </section>
+
+            <section id="sectionThree">
+                <strong id="status"></strong>
+                <div>
+                    <ul>
+                        <li class='info'></li>
+                        <li class='info'></li>
+                        <li class='info'></li>
+                        <li class='info'></li>
+                        <li class='info'></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Email: eng.amrhesham.22@gmail.com</p>
+        </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+           </script>
+    </body>
+</html>

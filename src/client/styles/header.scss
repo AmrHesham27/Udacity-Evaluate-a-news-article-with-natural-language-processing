@@ -1,0 +1,11 @@
+header {
+    // to have text perectly in the middle
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:150px;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    font-size: 2.5pc;
+}

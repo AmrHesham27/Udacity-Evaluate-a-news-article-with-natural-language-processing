@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid rgb(255, 0, 119);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+// input and sumbit button take different width and this is the solution
+input {
+    width: 40%;
+    padding: 12px;
+    margin:6px;
+    width: 300px;
+    border-radius: 12px;
+
+}
+
+input[type=submit]{
+    width: 328px;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    font-size: 1.1pc;
+    border-radius: 12px;
+}
+
+// hover
+input[type=submit]:hover {
+    background-color: black;
+}
+  
+ul {
+    list-style: none;
+}
